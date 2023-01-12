@@ -1,4 +1,3 @@
-import 'dart:html';
 import 'package:flutter/material.dart';
 import 'package:portfolio_website/Components/TabletView/AboutMe.dart';
 import 'package:portfolio_website/Components/TabletView/TabletContactMe.dart';
@@ -153,7 +152,7 @@ class TabletHomeScreen extends StatelessWidget {
                   'Read the API`s documentation to understand how to make requests and process responses',
               serviceThirdPoint:
                   'Integrate the API into your app by making requests and handling responses using an \nHTTP library or the platform`s native networking tools.',
-              serviceImage: 'assets/images/full-app-development.png',
+              serviceImage: 'assets/images/api-integration.png',
             ),
           ),
           SizedBox(height: 200),
@@ -213,7 +212,7 @@ class TabletHomeScreen extends StatelessWidget {
             child: TabletProjects(
               projectTitle: 'Bionic Glove App',
               projectDescription:
-                  'Our bionic glove app is designed to help users with hand impairments regain mobility and independence. By using advanced robotics and sensors technology, our bionic glove allows users to perform a wide range of tasks and movements with ease. With a user-friendly interface and intuituve controls, our app makes it easy for users to customize the functionality of their bionic glove and make it work for their specific needs. Whether you`re looking to regain the ability to grip objects, open doors, or perform other tasksm our bionic glove app can help you achieve your goals. Try it out today and see how it can transform your life!',
+                  'Our bionic glove app is designed to help users with hand impairments regain mobility and independence. By using advanced robotics and sensors technology, our bionic glove allows users to perform a wide range of tasks and movements with ease. With a user-friendly interface and intuituve controls, our app makes it easy for users to customize the functionality of their bionic glove and make it work for their specific needs. Whether you`re looking to regain the ability to grip objects, open doors, or perform other tasks our bionic glove app can help you achieve your goals. Try it out today and see how it can transform your life!',
               projectImage: 'assets/images/bionic-glove.png',
             ),
           ),
